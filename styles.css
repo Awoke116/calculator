@@ -1,0 +1,19 @@
+.container{
+    background-color: black;
+    padding: 16px;
+    gap: 8px;
+}
+
+button{
+    width: 64px;
+    height: 64px;
+}
+
+.left-hand{
+    margin-left: 64px;
+}
+
+#display{
+    background-color: rgb(98, 117, 117);
+    color: aqua;
+}
