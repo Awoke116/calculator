@@ -2,6 +2,8 @@
     background-color: black;
     padding: 16px;
     gap: 8px;
+    height: 320px;
+    width: 320px;
 }
 
 button{
@@ -10,10 +12,12 @@ button{
 }
 
 .left-hand{
-    margin-left: 64px;
+    margin-left: 56px;
 }
 
 #display{
-    background-color: rgb(98, 117, 117);
+    background-color:whitesmoke;
     color: aqua;
+    margin-left: 56px;
+    height: 64px;
 }
