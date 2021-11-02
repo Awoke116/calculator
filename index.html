@@ -7,11 +7,27 @@
 </head>
 
 <body>
-<form class="container">
-<input type="text" id="display"> </input>
-<p><button class="left-hand">1</button> <button>2</button> <button>3</button></p> 
-<p><button class="left-hand">4</button> <button>5</button> <button>6</button> </p>
-<p><button class="left-hand">7</button> <button>8</button> <button>9</button></p>
+<form class="container" name="calculator">
+<input type="textfield" class="display" name="display" disabled value=""></input>
+<br> <br>
+<input type="button" id="left-handx" value="x" class="clear" onclick="" ></input>
+<input type="button" value="/" class="clear" onclick="" ></input>
+<input type="button" value="=" class="clear" onclick="eval()" ></input>
+<br>
+<input type="button" id="left-hand" class="number" value="7" onclick="calculator.display.value +='7'" ></input> 
+<input type="button" value="8" class="number" onclick="calculator.display.value +='8'" ></input> 
+<input type="button" value="9" class="number" onclick="calculator.display.value +='9'" ></input> 
+<input type="button" value="-" class="clear" onclick="" ></input>
+<br>
+<input type="button" id="left-hand" class="number" value="4" onclick="calculator.display.value +='4'"></input> 
+<input type="button" value="5" class="number" onclick="calculator.display.value +='5'" ></input> 
+<input type="button" value="6" class="number" onclick="calculator.display.value +='6'" ></input> 
+<input type="button" value="+" class="clear" onclick="" ></input>
+<br>
+<input type="button" id="left-hand" class="number" value="1" onclick="calculator.display.value +='1'"></input> 
+<input type="button" class="number" value="2" onclick="calculator.display.value +='2'" ></input> 
+<input type="button" class="number" value="3" onclick="calculator.display.value +='3'" ></input> 
+<input type="button" class="clear" value="clear" onclick="calculator.display.value=''""></input> 
 </form>
 
 

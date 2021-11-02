@@ -2,22 +2,36 @@
     background-color: black;
     padding: 16px;
     gap: 8px;
-    height: 320px;
-    width: 320px;
+    height: 370px;
+    width: 350px;
 }
 
-button{
+.number{
     width: 64px;
     height: 64px;
+    background-color: red;
+    margin: 1px;
 }
 
-.left-hand{
-    margin-left: 56px;
+#left-hand{
+    margin-left: 45px;
 }
 
-#display{
-    background-color:whitesmoke;
-    color: aqua;
-    margin-left: 56px;
+#left-handx{
+    margin-left: 45px;
+}
+
+.clear{
+    width: 64px;
     height: 64px;
+    margin: 1px;
+    background-color: brown;
+}
+
+.display{
+    background-color:whitesmoke;
+    color: black;
+    margin-left: 20px;
+    height: 64px;
+    width: 300px;
 }
